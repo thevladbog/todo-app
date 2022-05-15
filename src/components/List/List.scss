@@ -40,31 +40,16 @@
       padding: 10px 12px;
     }
 
+    .badge {
+      position: relative;
+      left: 4px;
+    }
+
     i {
       margin-right: 8px;
       display: inline-flex;
       img {
         opacity: 0.6;
-      }
-    }
-
-    .badge {
-      width: 10px;
-      height: 10px;
-      border-radius: 30px;
-      position: relative;
-      left: 4px;
-
-      &--green {
-        background-color: #42b883;
-      }
-
-      &--blue {
-        background-color: #64c4ed;
-      }
-
-      &--pink {
-        background-color: #ffbbcc;
       }
     }
   }
