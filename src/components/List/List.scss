@@ -2,9 +2,25 @@
 
   margin-bottom: 30px;
 
-  &__icon-plus {
-    path {
-      stroke: #868686;
+  &__add-button {
+    svg {
+      path {
+        stroke: #868686;
+      }
+    }
+    span {
+      color: #767676;
+    }
+
+    &:hover {
+      svg {
+        path {
+          stroke: #000000;
+        }
+      }
+      span {
+        color: #0000;
+      }
     }
   }
 
