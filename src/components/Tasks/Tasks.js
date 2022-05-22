@@ -34,7 +34,7 @@ const Tasks = () => {
               </svg>
             </label>
           </div>
-          <p>React JS Hooks</p>
+          <input value="React JS Hooks" />
         </div>
       </div>
     </div>
