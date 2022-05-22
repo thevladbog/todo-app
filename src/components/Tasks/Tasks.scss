@@ -45,6 +45,10 @@
       display: none;
     }
 
+    svg {
+      transition: opacity 0.15s ease-in-out;
+    }
+
     input:checked + label {
       background-color: #4dd599;
       border-color: #4dd599;
@@ -78,6 +82,8 @@
       border-radius: 30px;
       width: 20px;
       height: 20px;
+      transition: background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out;
       cursor: pointer;
 
       svg {
