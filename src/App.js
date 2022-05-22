@@ -45,7 +45,13 @@ function App() {
           ]}
           isRemovable={false}
         />
-        <List items={lists} isRemovable={true} />
+        <List
+          items={lists}
+          isRemovable={true}
+          onRemove={(item) => {
+            console.log(item);
+          }}
+        />
         <AddList onAddList={onAddList} colors={DB.colors} />
       </div>
       <div className="todo__tasks"></div>

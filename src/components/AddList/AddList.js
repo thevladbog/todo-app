@@ -70,7 +70,7 @@ const AddList = ({ colors, onAddList }) => {
       {visiblePopup && (
         <div className="add-list__popup">
           <img
-            onClick={() => onClose}
+            onClick={onClose}
             src={closeBtn}
             alt="Close Button"
             className="add-list__popup-close-btn"
